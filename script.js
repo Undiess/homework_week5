@@ -20,8 +20,9 @@ for(var i=9;i<17;i++){
 },1000);
 
 //update events 
- $(".event-col").on("click",function(){
-    $(this).text("hi")
-
+ $(".btn").on("click",function(){
+    var text = document.getElementById('9').value
+   
+    console.log(this.parentNode.childNodes[3].value)
 
  })
